@@ -184,7 +184,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="PEEK" id="xsZ-su-TOn">
                         <rightBarButtonItems>
-                            <barButtonItem title="🔂" id="Zp0-fx-Vdb">
+                            <barButtonItem title="NEXT" id="Zp0-fx-Vdb">
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <action selector="showMoreClicked:" destination="vKR-af-MR1" id="7ya-Ma-PTA"/>
                                 </connections>
