@@ -3,7 +3,7 @@ Hello World
 
 This is a small iPhone application that queries Github to get repositories that mention GraphQL. The results are displayed in a list view with pagination support. 
 
-**Key Features **
+# Key Features
 Pagination 
 Custom Font 
 Animation
