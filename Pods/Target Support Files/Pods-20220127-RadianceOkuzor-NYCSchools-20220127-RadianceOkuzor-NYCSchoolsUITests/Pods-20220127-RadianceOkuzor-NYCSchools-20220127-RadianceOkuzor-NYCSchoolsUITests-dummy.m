@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_20220127_RadianceOkuzor_NYCSchools_20220127_RadianceOkuzor_NYCSchoolsUITests : NSObject
+@end
+@implementation PodsDummy_Pods_20220127_RadianceOkuzor_NYCSchools_20220127_RadianceOkuzor_NYCSchoolsUITests
+@end

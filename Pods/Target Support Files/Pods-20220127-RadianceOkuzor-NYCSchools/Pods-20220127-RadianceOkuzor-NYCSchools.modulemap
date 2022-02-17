@@ -1,0 +1,6 @@
+framework module Pods_20220127_RadianceOkuzor_NYCSchools {
+  umbrella header "Pods-20220127-RadianceOkuzor-NYCSchools-umbrella.h"
+
+  export *
+  module * { export * }
+}

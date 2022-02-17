@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D14B15252EC1058695508F7 /* Pods_20220127_RadianceOkuzor_NYCSchools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB25B5AEC3BF3A55778F114D /* Pods_20220127_RadianceOkuzor_NYCSchools.framework */; };
+		10662AA5EAC96F79DF7D4B4E /* Pods_20220127_RadianceOkuzor_NYCSchools_20220127_RadianceOkuzor_NYCSchoolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01EDCD081AB81682C4B35A8 /* Pods_20220127_RadianceOkuzor_NYCSchools_20220127_RadianceOkuzor_NYCSchoolsUITests.framework */; };
+		5FA9EA10E633A28BCBBAD42B /* Pods_20220127_RadianceOkuzor_NYCSchoolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75093E640F7E87260A1D83E1 /* Pods_20220127_RadianceOkuzor_NYCSchoolsTests.framework */; };
+		F21F4D5327A33C82003F11D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4D5227A33C82003F11D5 /* AppDelegate.swift */; };
+		F21F4D5527A33C82003F11D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4D5427A33C82003F11D5 /* SceneDelegate.swift */; };
+		F21F4D5A27A33C82003F11D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21F4D5827A33C82003F11D5 /* Main.storyboard */; };
+		F21F4D5C27A33C83003F11D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F21F4D5B27A33C83003F11D5 /* Assets.xcassets */; };
+		F21F4D5F27A33C83003F11D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21F4D5D27A33C83003F11D5 /* LaunchScreen.storyboard */; };
+		F21F4D6A27A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4D6927A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsTests.swift */; };
+		F21F4D7427A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4D7327A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsUITests.swift */; };
+		F21F4D7627A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4D7527A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsUITestsLaunchTests.swift */; };
+		F21F4D8527A33DD1003F11D5 /* RepoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4D8427A33DD1003F11D5 /* RepoViewModel.swift */; };
+		F21F4D8927A33DEA003F11D5 /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4D8827A33DEA003F11D5 /* APIModels.swift */; };
+		F21F4D9927A34081003F11D5 /* RepoDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4D9827A34081003F11D5 /* RepoDataVC.swift */; };
+		F21F4D9C27A342E0003F11D5 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4D9B27A342E0003F11D5 /* APIServices.swift */; };
+		F21F4D9E27A34397003F11D5 /* ListOfReposTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4D9D27A34397003F11D5 /* ListOfReposTableVC.swift */; };
+		F21F4DA027A351D7003F11D5 /* RepoNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4D9F27A351D7003F11D5 /* RepoNameTableViewCell.swift */; };
+		F21F4DB427A3583A003F11D5 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DA127A35839003F11D5 /* Montserrat-ExtraBold.ttf */; };
+		F21F4DB527A3583A003F11D5 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DA227A35839003F11D5 /* Montserrat-Regular.ttf */; };
+		F21F4DB627A3583A003F11D5 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DA327A35839003F11D5 /* Montserrat-SemiBold.ttf */; };
+		F21F4DB727A3583A003F11D5 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DA427A35839003F11D5 /* Montserrat-ThinItalic.ttf */; };
+		F21F4DB827A3583A003F11D5 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DA527A35839003F11D5 /* Montserrat-BlackItalic.ttf */; };
+		F21F4DB927A3583A003F11D5 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DA627A35839003F11D5 /* Montserrat-MediumItalic.ttf */; };
+		F21F4DBA27A3583A003F11D5 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DA727A35839003F11D5 /* Montserrat-ExtraLight.ttf */; };
+		F21F4DBB27A3583A003F11D5 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DA827A35839003F11D5 /* Montserrat-ExtraBoldItalic.ttf */; };
+		F21F4DBC27A3583A003F11D5 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DA927A35839003F11D5 /* Montserrat-Bold.ttf */; };
+		F21F4DBD27A3583A003F11D5 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DAA27A35839003F11D5 /* Montserrat-Light.ttf */; };
+		F21F4DBE27A3583A003F11D5 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DAB27A35839003F11D5 /* Montserrat-Italic.ttf */; };
+		F21F4DBF27A3583A003F11D5 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DAC27A35839003F11D5 /* Montserrat-LightItalic.ttf */; };
+		F21F4DC027A3583A003F11D5 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DAD27A35839003F11D5 /* Montserrat-Black.ttf */; };
+		F21F4DC127A3583A003F11D5 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DAE27A35839003F11D5 /* Montserrat-Medium.ttf */; };
+		F21F4DC227A3583A003F11D5 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DAF27A35839003F11D5 /* Montserrat-SemiBoldItalic.ttf */; };
+		F21F4DC327A3583A003F11D5 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DB027A35839003F11D5 /* Montserrat-ExtraLightItalic.ttf */; };
+		F21F4DC427A3583A003F11D5 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DB127A35839003F11D5 /* Montserrat-BoldItalic.ttf */; };
+		F21F4DC527A3583A003F11D5 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DB227A35839003F11D5 /* Montserrat-Thin.ttf */; };
+		F21F4DC627A3583A003F11D5 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DB327A3583A003F11D5 /* OFL.txt */; };
+		F21F4DCB27A3BCA8003F11D5 /* bkGround.gif in Resources */ = {isa = PBXBuildFile; fileRef = F21F4DCA27A3BCA8003F11D5 /* bkGround.gif */; };
+		F21F4DCE27A5E7B7003F11D5 /* extensionsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4DCD27A5E7B7003F11D5 /* extensionsFile.swift */; };
+		F21F4DD027A5E81F003F11D5 /* XLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21F4DCF27A5E81F003F11D5 /* XLabel.swift */; };
+		F227DBD527BD606900E72F90 /* AlamoFireManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F227DBD427BD606900E72F90 /* AlamoFireManager.swift */; };
+		F2627F5527BE278E00592065 /* RepoModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2627F5427BE278E00592065 /* RepoModels.swift */; };
+		F2EF9C4D27B252B100CBEDFD /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF9C4C27B252B100CBEDFD /* Cache.swift */; };
+		F2EF9C4E27B252B100CBEDFD /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF9C4C27B252B100CBEDFD /* Cache.swift */; };
+		F2EF9C4F27B252B100CBEDFD /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EF9C4C27B252B100CBEDFD /* Cache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F21F4D6627A33C83003F11D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21F4D4727A33C82003F11D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F21F4D4E27A33C82003F11D5;
+			remoteInfo = "20220127-RadianceOkuzor-NYCSchools";
+		};
+		F21F4D7027A33C83003F11D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F21F4D4727A33C82003F11D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F21F4D4E27A33C82003F11D5;
+			remoteInfo = "20220127-RadianceOkuzor-NYCSchools";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CC28E7A1DB6503546BD5582 /* Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests.release.xcconfig"; path = "Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests/Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		75093E640F7E87260A1D83E1 /* Pods_20220127_RadianceOkuzor_NYCSchoolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20220127_RadianceOkuzor_NYCSchoolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B16591CFF22379A11EF5DA /* Pods-20220127-RadianceOkuzor-NYCSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220127-RadianceOkuzor-NYCSchoolsTests.release.xcconfig"; path = "Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchoolsTests/Pods-20220127-RadianceOkuzor-NYCSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		9794804023A0C279E96ECE34 /* Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests/Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A21005342266DE0593618CE8 /* Pods-20220127-RadianceOkuzor-NYCSchools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220127-RadianceOkuzor-NYCSchools.debug.xcconfig"; path = "Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchools/Pods-20220127-RadianceOkuzor-NYCSchools.debug.xcconfig"; sourceTree = "<group>"; };
+		B01EDCD081AB81682C4B35A8 /* Pods_20220127_RadianceOkuzor_NYCSchools_20220127_RadianceOkuzor_NYCSchoolsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20220127_RadianceOkuzor_NYCSchools_20220127_RadianceOkuzor_NYCSchoolsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9AE8F1D4A4CD46D9B0228E9 /* Pods-20220127-RadianceOkuzor-NYCSchoolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220127-RadianceOkuzor-NYCSchoolsTests.debug.xcconfig"; path = "Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchoolsTests/Pods-20220127-RadianceOkuzor-NYCSchoolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB25B5AEC3BF3A55778F114D /* Pods_20220127_RadianceOkuzor_NYCSchools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20220127_RadianceOkuzor_NYCSchools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1659BD9DA8C6479B297D7A1 /* Pods-20220127-RadianceOkuzor-NYCSchools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220127-RadianceOkuzor-NYCSchools.release.xcconfig"; path = "Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchools/Pods-20220127-RadianceOkuzor-NYCSchools.release.xcconfig"; sourceTree = "<group>"; };
+		F21F4D4F27A33C82003F11D5 /* 20220127-RadianceOkuzor-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20220127-RadianceOkuzor-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F4D5227A33C82003F11D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F21F4D5427A33C82003F11D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F21F4D5927A33C82003F11D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F21F4D5B27A33C83003F11D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F21F4D5E27A33C83003F11D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F21F4D6027A33C83003F11D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21F4D6527A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20220127-RadianceOkuzor-NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F4D6927A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220127_RadianceOkuzor_NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		F21F4D6F27A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20220127-RadianceOkuzor-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21F4D7327A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220127_RadianceOkuzor_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
+		F21F4D7527A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220127_RadianceOkuzor_NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F21F4D8427A33DD1003F11D5 /* RepoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoViewModel.swift; sourceTree = "<group>"; };
+		F21F4D8827A33DEA003F11D5 /* APIModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIModels.swift; sourceTree = "<group>"; };
+		F21F4D9827A34081003F11D5 /* RepoDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDataVC.swift; sourceTree = "<group>"; };
+		F21F4D9B27A342E0003F11D5 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		F21F4D9D27A34397003F11D5 /* ListOfReposTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfReposTableVC.swift; sourceTree = "<group>"; };
+		F21F4D9F27A351D7003F11D5 /* RepoNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoNameTableViewCell.swift; sourceTree = "<group>"; };
+		F21F4DA127A35839003F11D5 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F21F4DA227A35839003F11D5 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		F21F4DA327A35839003F11D5 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		F21F4DA427A35839003F11D5 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		F21F4DA527A35839003F11D5 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		F21F4DA627A35839003F11D5 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		F21F4DA727A35839003F11D5 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		F21F4DA827A35839003F11D5 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		F21F4DA927A35839003F11D5 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		F21F4DAA27A35839003F11D5 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		F21F4DAB27A35839003F11D5 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		F21F4DAC27A35839003F11D5 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		F21F4DAD27A35839003F11D5 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		F21F4DAE27A35839003F11D5 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		F21F4DAF27A35839003F11D5 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F21F4DB027A35839003F11D5 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		F21F4DB127A35839003F11D5 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F21F4DB227A35839003F11D5 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		F21F4DB327A3583A003F11D5 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		F21F4DCA27A3BCA8003F11D5 /* bkGround.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bkGround.gif; sourceTree = "<group>"; };
+		F21F4DCD27A5E7B7003F11D5 /* extensionsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionsFile.swift; sourceTree = "<group>"; };
+		F21F4DCF27A5E81F003F11D5 /* XLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLabel.swift; sourceTree = "<group>"; };
+		F227DBD427BD606900E72F90 /* AlamoFireManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamoFireManager.swift; sourceTree = "<group>"; };
+		F2627F5427BE278E00592065 /* RepoModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModels.swift; sourceTree = "<group>"; };
+		F2EF9C4C27B252B100CBEDFD /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21F4D4C27A33C82003F11D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D14B15252EC1058695508F7 /* Pods_20220127_RadianceOkuzor_NYCSchools.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F4D6227A33C83003F11D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA9EA10E633A28BCBBAD42B /* Pods_20220127_RadianceOkuzor_NYCSchoolsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F4D6C27A33C83003F11D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10662AA5EAC96F79DF7D4B4E /* Pods_20220127_RadianceOkuzor_NYCSchools_20220127_RadianceOkuzor_NYCSchoolsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B3848E2998E27CC582E5F74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A21005342266DE0593618CE8 /* Pods-20220127-RadianceOkuzor-NYCSchools.debug.xcconfig */,
+				F1659BD9DA8C6479B297D7A1 /* Pods-20220127-RadianceOkuzor-NYCSchools.release.xcconfig */,
+				9794804023A0C279E96ECE34 /* Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests.debug.xcconfig */,
+				0CC28E7A1DB6503546BD5582 /* Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests.release.xcconfig */,
+				C9AE8F1D4A4CD46D9B0228E9 /* Pods-20220127-RadianceOkuzor-NYCSchoolsTests.debug.xcconfig */,
+				91B16591CFF22379A11EF5DA /* Pods-20220127-RadianceOkuzor-NYCSchoolsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8490C8AE408BA6044215697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB25B5AEC3BF3A55778F114D /* Pods_20220127_RadianceOkuzor_NYCSchools.framework */,
+				B01EDCD081AB81682C4B35A8 /* Pods_20220127_RadianceOkuzor_NYCSchools_20220127_RadianceOkuzor_NYCSchoolsUITests.framework */,
+				75093E640F7E87260A1D83E1 /* Pods_20220127_RadianceOkuzor_NYCSchoolsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F21F4D4627A33C82003F11D5 = {
+			isa = PBXGroup;
+			children = (
+				F21F4D5127A33C82003F11D5 /* 20220127-RadianceOkuzor-NYCSchools */,
+				F21F4D6827A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsTests */,
+				F21F4D7227A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsUITests */,
+				F21F4D5027A33C82003F11D5 /* Products */,
+				4B3848E2998E27CC582E5F74 /* Pods */,
+				A8490C8AE408BA6044215697 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F21F4D5027A33C82003F11D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F21F4D4F27A33C82003F11D5 /* 20220127-RadianceOkuzor-NYCSchools.app */,
+				F21F4D6527A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsTests.xctest */,
+				F21F4D6F27A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21F4D5127A33C82003F11D5 /* 20220127-RadianceOkuzor-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				F21F4DC827A3585F003F11D5 /* Fonts */,
+				F21F4D9027A33E44003F11D5 /* Model */,
+				F21F4D9127A33E54003F11D5 /* APIService */,
+				F21F4D9727A33EAF003F11D5 /* ViewModel */,
+				F21F4DCC27A5DF72003F11D5 /* Controllers */,
+				F21F4DC927A35E1E003F11D5 /* View */,
+				F21F4D5427A33C82003F11D5 /* SceneDelegate.swift */,
+				F21F4D5227A33C82003F11D5 /* AppDelegate.swift */,
+				F21F4DCA27A3BCA8003F11D5 /* bkGround.gif */,
+				F21F4D5827A33C82003F11D5 /* Main.storyboard */,
+				F21F4D5B27A33C83003F11D5 /* Assets.xcassets */,
+				F21F4D5D27A33C83003F11D5 /* LaunchScreen.storyboard */,
+				F21F4D6027A33C83003F11D5 /* Info.plist */,
+			);
+			path = "20220127-RadianceOkuzor-NYCSchools";
+			sourceTree = "<group>";
+		};
+		F21F4D6827A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				F21F4D6927A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsTests.swift */,
+			);
+			path = "20220127-RadianceOkuzor-NYCSchoolsTests";
+			sourceTree = "<group>";
+		};
+		F21F4D7227A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F21F4D7327A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsUITests.swift */,
+				F21F4D7527A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsUITestsLaunchTests.swift */,
+			);
+			path = "20220127-RadianceOkuzor-NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		F21F4D9027A33E44003F11D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F21F4D8827A33DEA003F11D5 /* APIModels.swift */,
+				F2EF9C4C27B252B100CBEDFD /* Cache.swift */,
+				F2627F5427BE278E00592065 /* RepoModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F21F4D9127A33E54003F11D5 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				F21F4D9B27A342E0003F11D5 /* APIServices.swift */,
+				F227DBD427BD606900E72F90 /* AlamoFireManager.swift */,
+			);
+			path = APIService;
+			sourceTree = "<group>";
+		};
+		F21F4D9727A33EAF003F11D5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F21F4D8427A33DD1003F11D5 /* RepoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F21F4DC727A3584B003F11D5 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				F21F4DAD27A35839003F11D5 /* Montserrat-Black.ttf */,
+				F21F4DA527A35839003F11D5 /* Montserrat-BlackItalic.ttf */,
+				F21F4DA927A35839003F11D5 /* Montserrat-Bold.ttf */,
+				F21F4DB127A35839003F11D5 /* Montserrat-BoldItalic.ttf */,
+				F21F4DA127A35839003F11D5 /* Montserrat-ExtraBold.ttf */,
+				F21F4DA827A35839003F11D5 /* Montserrat-ExtraBoldItalic.ttf */,
+				F21F4DA727A35839003F11D5 /* Montserrat-ExtraLight.ttf */,
+				F21F4DB027A35839003F11D5 /* Montserrat-ExtraLightItalic.ttf */,
+				F21F4DAB27A35839003F11D5 /* Montserrat-Italic.ttf */,
+				F21F4DAA27A35839003F11D5 /* Montserrat-Light.ttf */,
+				F21F4DAC27A35839003F11D5 /* Montserrat-LightItalic.ttf */,
+				F21F4DAE27A35839003F11D5 /* Montserrat-Medium.ttf */,
+				F21F4DA627A35839003F11D5 /* Montserrat-MediumItalic.ttf */,
+				F21F4DA227A35839003F11D5 /* Montserrat-Regular.ttf */,
+				F21F4DA327A35839003F11D5 /* Montserrat-SemiBold.ttf */,
+				F21F4DAF27A35839003F11D5 /* Montserrat-SemiBoldItalic.ttf */,
+				F21F4DB227A35839003F11D5 /* Montserrat-Thin.ttf */,
+				F21F4DA427A35839003F11D5 /* Montserrat-ThinItalic.ttf */,
+				F21F4DB327A3583A003F11D5 /* OFL.txt */,
+			);
+			path = Montserrat;
+			sourceTree = "<group>";
+		};
+		F21F4DC827A3585F003F11D5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F21F4DC727A3584B003F11D5 /* Montserrat */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		F21F4DC927A35E1E003F11D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F21F4D9F27A351D7003F11D5 /* RepoNameTableViewCell.swift */,
+				F21F4DCD27A5E7B7003F11D5 /* extensionsFile.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F21F4DCC27A5DF72003F11D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F21F4D9D27A34397003F11D5 /* ListOfReposTableVC.swift */,
+				F21F4D9827A34081003F11D5 /* RepoDataVC.swift */,
+				F21F4DCF27A5E81F003F11D5 /* XLabel.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F21F4D4E27A33C82003F11D5 /* 20220127-RadianceOkuzor-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21F4D7927A33C83003F11D5 /* Build configuration list for PBXNativeTarget "20220127-RadianceOkuzor-NYCSchools" */;
+			buildPhases = (
+				15B5FA9F319424AF1FF94943 /* [CP] Check Pods Manifest.lock */,
+				F21F4D4B27A33C82003F11D5 /* Sources */,
+				F21F4D4C27A33C82003F11D5 /* Frameworks */,
+				F21F4D4D27A33C82003F11D5 /* Resources */,
+				E2FD91D4770FA50668703D12 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20220127-RadianceOkuzor-NYCSchools";
+			productName = "20220127-RadianceOkuzor-NYCSchools";
+			productReference = F21F4D4F27A33C82003F11D5 /* 20220127-RadianceOkuzor-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F21F4D6427A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21F4D7C27A33C83003F11D5 /* Build configuration list for PBXNativeTarget "20220127-RadianceOkuzor-NYCSchoolsTests" */;
+			buildPhases = (
+				598825B73D006C5936B35F99 /* [CP] Check Pods Manifest.lock */,
+				F21F4D6127A33C83003F11D5 /* Sources */,
+				F21F4D6227A33C83003F11D5 /* Frameworks */,
+				F21F4D6327A33C83003F11D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F21F4D6727A33C83003F11D5 /* PBXTargetDependency */,
+			);
+			name = "20220127-RadianceOkuzor-NYCSchoolsTests";
+			productName = "20220127-RadianceOkuzor-NYCSchoolsTests";
+			productReference = F21F4D6527A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F21F4D6E27A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21F4D7F27A33C83003F11D5 /* Build configuration list for PBXNativeTarget "20220127-RadianceOkuzor-NYCSchoolsUITests" */;
+			buildPhases = (
+				F913BBCF271915E9E62C0C28 /* [CP] Check Pods Manifest.lock */,
+				F21F4D6B27A33C83003F11D5 /* Sources */,
+				F21F4D6C27A33C83003F11D5 /* Frameworks */,
+				F21F4D6D27A33C83003F11D5 /* Resources */,
+				07E179C09B4BE64AE0508D59 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F21F4D7127A33C83003F11D5 /* PBXTargetDependency */,
+			);
+			name = "20220127-RadianceOkuzor-NYCSchoolsUITests";
+			productName = "20220127-RadianceOkuzor-NYCSchoolsUITests";
+			productReference = F21F4D6F27A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21F4D4727A33C82003F11D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F21F4D4E27A33C82003F11D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F21F4D6427A33C83003F11D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F21F4D4E27A33C82003F11D5;
+					};
+					F21F4D6E27A33C83003F11D5 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F21F4D4E27A33C82003F11D5;
+					};
+				};
+			};
+			buildConfigurationList = F21F4D4A27A33C82003F11D5 /* Build configuration list for PBXProject "20220127-RadianceOkuzor-NYCSchools" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F21F4D4627A33C82003F11D5;
+			productRefGroup = F21F4D5027A33C82003F11D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21F4D4E27A33C82003F11D5 /* 20220127-RadianceOkuzor-NYCSchools */,
+				F21F4D6427A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsTests */,
+				F21F4D6E27A33C83003F11D5 /* 20220127-RadianceOkuzor-NYCSchoolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F21F4D4D27A33C82003F11D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21F4DC227A3583A003F11D5 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				F21F4DB627A3583A003F11D5 /* Montserrat-SemiBold.ttf in Resources */,
+				F21F4DB727A3583A003F11D5 /* Montserrat-ThinItalic.ttf in Resources */,
+				F21F4D5F27A33C83003F11D5 /* LaunchScreen.storyboard in Resources */,
+				F21F4DB427A3583A003F11D5 /* Montserrat-ExtraBold.ttf in Resources */,
+				F21F4DC127A3583A003F11D5 /* Montserrat-Medium.ttf in Resources */,
+				F21F4DB927A3583A003F11D5 /* Montserrat-MediumItalic.ttf in Resources */,
+				F21F4D5C27A33C83003F11D5 /* Assets.xcassets in Resources */,
+				F21F4DC427A3583A003F11D5 /* Montserrat-BoldItalic.ttf in Resources */,
+				F21F4DB827A3583A003F11D5 /* Montserrat-BlackItalic.ttf in Resources */,
+				F21F4DB527A3583A003F11D5 /* Montserrat-Regular.ttf in Resources */,
+				F21F4DBF27A3583A003F11D5 /* Montserrat-LightItalic.ttf in Resources */,
+				F21F4DC627A3583A003F11D5 /* OFL.txt in Resources */,
+				F21F4DC027A3583A003F11D5 /* Montserrat-Black.ttf in Resources */,
+				F21F4DC527A3583A003F11D5 /* Montserrat-Thin.ttf in Resources */,
+				F21F4DBC27A3583A003F11D5 /* Montserrat-Bold.ttf in Resources */,
+				F21F4D5A27A33C82003F11D5 /* Main.storyboard in Resources */,
+				F21F4DBA27A3583A003F11D5 /* Montserrat-ExtraLight.ttf in Resources */,
+				F21F4DC327A3583A003F11D5 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				F21F4DBB27A3583A003F11D5 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				F21F4DBD27A3583A003F11D5 /* Montserrat-Light.ttf in Resources */,
+				F21F4DCB27A3BCA8003F11D5 /* bkGround.gif in Resources */,
+				F21F4DBE27A3583A003F11D5 /* Montserrat-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F4D6327A33C83003F11D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F4D6D27A33C83003F11D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07E179C09B4BE64AE0508D59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests/Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests/Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests/Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15B5FA9F319424AF1FF94943 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20220127-RadianceOkuzor-NYCSchools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		598825B73D006C5936B35F99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20220127-RadianceOkuzor-NYCSchoolsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2FD91D4770FA50668703D12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchools/Pods-20220127-RadianceOkuzor-NYCSchools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchools/Pods-20220127-RadianceOkuzor-NYCSchools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-20220127-RadianceOkuzor-NYCSchools/Pods-20220127-RadianceOkuzor-NYCSchools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F913BBCF271915E9E62C0C28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21F4D4B27A33C82003F11D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21F4D8927A33DEA003F11D5 /* APIModels.swift in Sources */,
+				F21F4DD027A5E81F003F11D5 /* XLabel.swift in Sources */,
+				F21F4D9927A34081003F11D5 /* RepoDataVC.swift in Sources */,
+				F21F4D5327A33C82003F11D5 /* AppDelegate.swift in Sources */,
+				F227DBD527BD606900E72F90 /* AlamoFireManager.swift in Sources */,
+				F2EF9C4D27B252B100CBEDFD /* Cache.swift in Sources */,
+				F21F4DA027A351D7003F11D5 /* RepoNameTableViewCell.swift in Sources */,
+				F21F4D8527A33DD1003F11D5 /* RepoViewModel.swift in Sources */,
+				F21F4DCE27A5E7B7003F11D5 /* extensionsFile.swift in Sources */,
+				F21F4D5527A33C82003F11D5 /* SceneDelegate.swift in Sources */,
+				F21F4D9C27A342E0003F11D5 /* APIServices.swift in Sources */,
+				F2627F5527BE278E00592065 /* RepoModels.swift in Sources */,
+				F21F4D9E27A34397003F11D5 /* ListOfReposTableVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F4D6127A33C83003F11D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EF9C4E27B252B100CBEDFD /* Cache.swift in Sources */,
+				F21F4D6A27A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F21F4D6B27A33C83003F11D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21F4D7427A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsUITests.swift in Sources */,
+				F2EF9C4F27B252B100CBEDFD /* Cache.swift in Sources */,
+				F21F4D7627A33C83003F11D5 /* _0220127_RadianceOkuzor_NYCSchoolsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F21F4D6727A33C83003F11D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F21F4D4E27A33C82003F11D5 /* 20220127-RadianceOkuzor-NYCSchools */;
+			targetProxy = F21F4D6627A33C83003F11D5 /* PBXContainerItemProxy */;
+		};
+		F21F4D7127A33C83003F11D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F21F4D4E27A33C82003F11D5 /* 20220127-RadianceOkuzor-NYCSchools */;
+			targetProxy = F21F4D7027A33C83003F11D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F21F4D5827A33C82003F11D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21F4D5927A33C82003F11D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F21F4D5D27A33C83003F11D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21F4D5E27A33C83003F11D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F21F4D7727A33C83003F11D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F21F4D7827A33C83003F11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F21F4D7A27A33C83003F11D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21005342266DE0593618CE8 /* Pods-20220127-RadianceOkuzor-NYCSchools.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2B5QD97WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20220127-RadianceOkuzor-NYCSchools/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nycSchools.us.-0220127-RadianceOkuzor-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F21F4D7B27A33C83003F11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1659BD9DA8C6479B297D7A1 /* Pods-20220127-RadianceOkuzor-NYCSchools.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2B5QD97WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "20220127-RadianceOkuzor-NYCSchools/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nycSchools.us.-0220127-RadianceOkuzor-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F21F4D7D27A33C83003F11D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AE8F1D4A4CD46D9B0228E9 /* Pods-20220127-RadianceOkuzor-NYCSchoolsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2B5QD97WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nycSchools.us.-0220127-RadianceOkuzor-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20220127-RadianceOkuzor-NYCSchools.app/20220127-RadianceOkuzor-NYCSchools";
+			};
+			name = Debug;
+		};
+		F21F4D7E27A33C83003F11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91B16591CFF22379A11EF5DA /* Pods-20220127-RadianceOkuzor-NYCSchoolsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2B5QD97WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nycSchools.us.-0220127-RadianceOkuzor-NYCSchoolsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20220127-RadianceOkuzor-NYCSchools.app/20220127-RadianceOkuzor-NYCSchools";
+			};
+			name = Release;
+		};
+		F21F4D8027A33C83003F11D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9794804023A0C279E96ECE34 /* Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2B5QD97WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nycSchools.us.-0220127-RadianceOkuzor-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20220127-RadianceOkuzor-NYCSchools";
+			};
+			name = Debug;
+		};
+		F21F4D8127A33C83003F11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC28E7A1DB6503546BD5582 /* Pods-20220127-RadianceOkuzor-NYCSchools-20220127-RadianceOkuzor-NYCSchoolsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2B5QD97WH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nycSchools.us.-0220127-RadianceOkuzor-NYCSchoolsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "20220127-RadianceOkuzor-NYCSchools";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21F4D4A27A33C82003F11D5 /* Build configuration list for PBXProject "20220127-RadianceOkuzor-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21F4D7727A33C83003F11D5 /* Debug */,
+				F21F4D7827A33C83003F11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21F4D7927A33C83003F11D5 /* Build configuration list for PBXNativeTarget "20220127-RadianceOkuzor-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21F4D7A27A33C83003F11D5 /* Debug */,
+				F21F4D7B27A33C83003F11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21F4D7C27A33C83003F11D5 /* Build configuration list for PBXNativeTarget "20220127-RadianceOkuzor-NYCSchoolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21F4D7D27A33C83003F11D5 /* Debug */,
+				F21F4D7E27A33C83003F11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21F4D7F27A33C83003F11D5 /* Build configuration list for PBXNativeTarget "20220127-RadianceOkuzor-NYCSchoolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21F4D8027A33C83003F11D5 /* Debug */,
+				F21F4D8127A33C83003F11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F21F4D4727A33C82003F11D5 /* Project object */;
+}
