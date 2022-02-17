@@ -44,6 +44,7 @@ class RepoViewModel: NSObject {
     override init() {
         super.init()
         self.apiService = APIService() // initialize apiService to be used to get repo data from the back end
+        search(queryString: "graphQL")
     }
     
     func search(queryString: String, page:Int = 1) {

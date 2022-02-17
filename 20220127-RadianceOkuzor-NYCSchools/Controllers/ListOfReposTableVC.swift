@@ -47,14 +47,12 @@ class ListOfReposTableVC: UIViewController, UITableViewDelegate, UITableViewData
                 // we have wifi go ahead and hit the backed
                 self.repoViewModel = RepoViewModel()
                 callToViewModelForUIUpdate()
-                repoViewModel.search(queryString: "graphQL")
             } else {
                 // no data use the cache
                 print("pulling from cache data")
                 
                 self.repoViewModel = RepoViewModel()
                 callToViewModelForUIUpdate()
-                repoViewModel.search(queryString: "graphQL")
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
                     self.activityIndicator.stopAnimating()
